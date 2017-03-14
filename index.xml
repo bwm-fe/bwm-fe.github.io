@@ -6,7 +6,28 @@
     <description>Recent content on 新品前端</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 13 Mar 2017 17:11:31 +0800</lastBuildDate>
     <atom:link href="http://bwm-fe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://bwm-fe.github.io/post/first/</link>
+      <pubDate>Mon, 13 Mar 2017 17:11:31 +0800</pubDate>
+      
+      <guid>http://bwm-fe.github.io/post/first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://bwm-fe.github.io/post/about/</link>
+      <pubDate>Mon, 13 Mar 2017 16:55:49 +0800</pubDate>
+      
+      <guid>http://bwm-fe.github.io/post/about/</guid>
+      <description>&lt;p&gt;####快捷键
+* &lt;code&gt;atom+文件（名）&lt;/code&gt;  在命令行中打&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
