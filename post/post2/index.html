@@ -63,7 +63,7 @@
         },
         "datePublished": "2017-03-13",
         "description": "在组件化开发的基础上，对营运后端占业务总量50%以上的检索页面模型进行抽象",
-        "wordCount": 162
+        "wordCount": 177
     }
     </script>
 
@@ -115,7 +115,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
   			<header class="post-header">
   				<span class="post-meta">
-						<span class="post-date">13 Mar 2017</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">162</span> words)</span></span>
+						<span class="post-date">13 Mar 2017</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">177</span> words)</span></span>
   				</span>
   				<div class="clear"></div>
   				<h1 class="post-title">前端业务模型组件抽象集成实践</h1>
@@ -141,10 +141,19 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 <li>无序列表项 三</li>
 </ol>
 
-<pre><code>2016年 github 上星最多的10个开源项目中，第5名是 React，~~ 第6名是 angular.js ~~，这两个都是前端最热的组件化解决方案之一，组件化已经是大势所趋。新品类也紧跟技术大潮步伐，在运营后端和用户端上都使用组件化思想开发。在运营后端上，在组件化方案之前，运营后端绝大部分是用基于FIS的解决方案，开发中需要自己编写组件，现在得益于 React 和 React 丰富的组件生态，开源的 React 组件库 antd 基本上能满足我们所有业务开发，组件化解决方案已经展现出他极大优越性，在开发效率上有极大的提升，bug数也明显下降。组件化带来了生产力的提升。
+<p>2016年 github 上星最多的10个开源项目中，第5名是 React，~~ 第6名是 angular.js ~~，这两个都是前端最热的组件化解决方案之一，组件化已经是大势所趋。新品类也紧跟技术大潮步伐，在运营后端和用户端上都使用组件化思想开发。在运营后端上，在组件化方案之前，运营后端绝大部分是用基于FIS的解决方案，开发中需要自己编写组件，现在得益于 React 和 React 丰富的组件生态，开源的 React 组件库 antd 基本上能满足我们所有业务开发，组件化解决方案已经展现出他极大优越性，在开发效率上有极大的提升，bug数也明显下降。组件化带来了生产力的提升。</p>
+
+<pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;inp&quot; /&gt;
 </code></pre>
 
-<pre><code class="language-vbscript-html">&lt;input type=&quot;text&quot; id=&quot;inp&quot; /&gt;
+<pre><code class="language-css">#el {
+  margin: 0 auto;
+}
+#el {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 </code></pre>
 
 <pre><code class="language-javascript">const el = document.querySelector('#inp');
