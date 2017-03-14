@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>百度外卖新品前端</title>
+    <title>新品前端</title>
     <link>http://bwm-fe.github.io/index.xml</link>
-    <description>Recent content on 百度外卖新品前端</description>
+    <description>Recent content on 新品前端</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://bwm-fe.github.io/index.xml" rel="self" type="application/rss+xml" />
