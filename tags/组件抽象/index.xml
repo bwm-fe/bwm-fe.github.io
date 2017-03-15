@@ -9,22 +9,12 @@
     <atom:link href="https://bwm-fe.github.io/tags/%E7%BB%84%E4%BB%B6%E6%8A%BD%E8%B1%A1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>前型 - 林溪</title>
+      <title>前型组集成了检索模型组件，通过配置以上的检索页面模型进行抽象 - 林溪</title>
       <link>https://bwm-fe.github.io/post/post5/</link>
       <pubDate>Mon, 13 Mar 2017 17:11:31 +0800</pubDate>
       
       <guid>https://bwm-fe.github.io/post/post5/</guid>
-      <description>&lt;div
-    style=&#34;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: auto;
-    &#34;
-    data-src=&#34;http://ww4.sinaimg.cn/mw690/b355eb94jw1f5zol834y0j21w01w0hdt.jpg&#34;
-    class=&#34;blured-image w3-card-8 filter-blur-15&#34;
-&gt;
-&lt;/div&gt;
+      <description>&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://ww4.sinaimg.cn/mw690/b355eb94jw1f5zol834y0j21w01w0hdt.jpg&#34; alt=&#34;文章图片&#34; /&gt;&lt;/p&gt;
 
