@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content=" 前型组件抽象集成实践 &middot;  新品前端@百度外卖" />
+        <meta property="og:title" content=" 前型 - 林溪 &middot;  新品前端@百度外卖" />
         <meta property="og:site_name" content="新品前端@百度外卖" />
         <meta property="og:url" content="https://bwm-fe.github.io/post/post5/" />
 
@@ -21,16 +21,21 @@
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@" />
         <meta name="twitter:creator" content="@" />
-        <meta name="twitter:title" content="前型组件抽象集成实践" />
+        <meta name="twitter:title" content="前型 - 林溪" />
         <meta name="twitter:description" content="在组件化开发的基础上，对营运后端占业务总量50%以上的检索页面模型进行抽象" />
         <meta name="twitter:url" content="https://bwm-fe.github.io/post/post5/" />
     
 
-        <title> 前型组件抽象集成实践 &middot;  新品前端@百度外卖</title>
+        <title> 前型 - 林溪 &middot;  新品前端@百度外卖</title>
 
-        <link rel="stylesheet" href="/css/highlight.css">
+
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
+        <link href="/imgs/favicon.ico" rel="icon" type="image/x-icon" />
+
+        <link rel="stylesheet" href="/css/highlight.css">
+        <script src="/js/highlight.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
 
     
         <meta name="description" content="在组件化开发的基础上，对营运后端占业务总量50%以上的检索页面模型进行抽象" />
@@ -56,7 +61,7 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "前型组件抽象集成实践",
+        "headline": "前型 - 林溪",
         "author": {
             "@type": "Person",
             "name": "http://profiles.google.com/?rel=author"
@@ -73,8 +78,6 @@
     
     
     </script>
-    <script src="/js/highlight.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
     
 
     <style>
@@ -104,6 +107,16 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
+<head>
+<link rel="stylesheet" href="/css/highlight.css">
+<script src="/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+	$('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+</script>
+</head>
 <main class="content" role="main">
 	<article class="post">
 		<div class="inner">
@@ -112,14 +125,28 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
   			<header class="post-header">
   				<span class="post-meta">
-						<span class="post-date">13 Mar 2017</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span></span></span>
+						<span class="post-date">13 Mar 2017</span> 
+						<span></span>
+					</span>
   				</span>
   				<div class="clear"></div>
-  				<h1 class="post-title">前型组件抽象集成实践</h1>
+  				<h1 class="post-title">前型 - 林溪</h1>
   			</header>
 
   			<section class="post-content">
-  				<p><img src="http://ww4.sinaimg.cn/mw690/b355eb94jw1f5zol834y0j21w01w0hdt.jpg" alt="文章图片" /></p>
+  				<div
+    style="
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    "
+    data-src="http://ww4.sinaimg.cn/mw690/b355eb94jw1f5zol834y0j21w01w0hdt.jpg"
+    class="blured-image w3-card-8 filter-blur-15"
+>
+</div>
+
+<p><img src="http://ww4.sinaimg.cn/mw690/b355eb94jw1f5zol834y0j21w01w0hdt.jpg" alt="文章图片" /></p>
 
 <blockquote>
 <p>就像蒸汽机的发明替代了手工劳动，使人们感到幸福，电气时代替代蒸汽机，使人们得到享受，而人工智能时代用机器替代人类枯燥的劳动。</p>
@@ -252,7 +279,7 @@ document.write(fib(10));
             
   				</div>
   				<div class="post-share">
-  					<a class="icon-twitter" href="https://twitter.com/share?text=%e5%89%8d%e5%9e%8b%e7%bb%84%e4%bb%b6%e6%8a%bd%e8%b1%a1%e9%9b%86%e6%88%90%e5%ae%9e%e8%b7%b5&url=https%3a%2f%2fbwm-fe.github.io%2fpost%2fpost5%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=%e5%89%8d%e5%9e%8b%20-%20%e6%9e%97%e6%ba%aa&url=https%3a%2f%2fbwm-fe.github.io%2fpost%2fpost5%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
   						<span>Twitter</span>
   					</a>
   					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbwm-fe.github.io%2fpost%2fpost5%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
@@ -276,12 +303,12 @@ document.write(fib(10));
 			<nav class="post-nav">
 				
 				
-					<a class="post-nav-item post-nav-prev" href="https://bwm-fe.github.io/post/post3/">
+					<a class="post-nav-item post-nav-prev" href="https://bwm-fe.github.io/post/about/">
 						<section class="post-nav-teaser">
 							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
 							<span class="post-nav-info">
-								<h4 class="post-nav-title">前型组件抽象集成实践</h4>
-								<p class="post-nav-excerpt">在组件化开发的基础上，对营运后端占业务总量50%以上的检索页面模型进行抽象&hellip;</p>
+								<h4 class="post-nav-title">about</h4>
+								<p class="post-nav-excerpt">&hellip;</p>
 							</span>
 						</section>
 					</a>
@@ -296,7 +323,7 @@ document.write(fib(10));
 				<div id="body-class" style="display: none;"></div>
 				<footer id="footer">
 					<section class="credits">
-						<span class="credits-theme"><a href="https://bwm-fe.github.io/" target="_blank" rel="nofollow">百度外卖.新品前端</a>@2017</span>
+						<span class="credits-theme"><a href="https://bwm-fe.github.io/" target="_blank" rel="nofollow">百度外卖.前端</a>@2017</span>
 						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
 					</section>
 				</footer>

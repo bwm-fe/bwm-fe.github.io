@@ -26,9 +26,14 @@
 
         <title> about &middot;  新品前端@百度外卖</title>
 
-        <link rel="stylesheet" href="/css/highlight.css">
+
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
+        <link href="/imgs/favicon.ico" rel="icon" type="image/x-icon" />
+
+        <link rel="stylesheet" href="/css/highlight.css">
+        <script src="/js/highlight.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
 
     
         <meta name="description" content="" />
@@ -71,8 +76,6 @@
     
     
     </script>
-    <script src="/js/highlight.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
     
 
     <style>
@@ -102,6 +105,16 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
+<head>
+<link rel="stylesheet" href="/css/highlight.css">
+<script src="/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+	$('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+</script>
+</head>
 <main class="content" role="main">
 	<article class="post">
 		<div class="inner">
@@ -110,7 +123,9 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
   			<header class="post-header">
   				<span class="post-meta">
-						<span class="post-date">13 Mar 2017</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span></span></span>
+						<span class="post-date">13 Mar 2017</span> 
+						<span></span>
+					</span>
   				</span>
   				<div class="clear"></div>
   				<h1 class="post-title">about</h1>
@@ -118,8 +133,6 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
   			<section class="post-content">
   				
-
-<p><img src="https://blog.zenithar.org/images/articles/2016/canada/quebec.jpg" alt="文章图片" /></p>
 
 <p><a href="https://www.zybuluo.com/mdeditor" title="作业部落旗下 Cmd 在线 Markdown 编辑阅读器">『Cmd 技术渲染的沙箱页面，点击此处编写自己的文档』</a></p>
 
@@ -533,12 +546,12 @@ D--&gt;&gt;A: Dashed open arrow
 
 			<nav class="post-nav">
 				
-					<a class="post-nav-item post-nav-next" href="https://bwm-fe.github.io/post/post6/">
+					<a class="post-nav-item post-nav-next" href="https://bwm-fe.github.io/post/post5/">
 						<section class="post-nav-teaser">
 							<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
 							<span class="post-nav-info">
-								<h4 class="post-nav-title">务模型组件</h4>
-								<p class="post-nav-excerpt">在组件化开发的基础上，对以上的检索页面模型进行抽象&hellip;</p>
+								<h4 class="post-nav-title">前型 - 林溪</h4>
+								<p class="post-nav-excerpt">在组件化开发的基础上，对营运后端占业务总量50%以上的检索页面模型进行抽象&hellip;</p>
 							</span>
 						</section>
 					</a>
@@ -554,7 +567,7 @@ D--&gt;&gt;A: Dashed open arrow
 				<div id="body-class" style="display: none;"></div>
 				<footer id="footer">
 					<section class="credits">
-						<span class="credits-theme"><a href="https://bwm-fe.github.io/" target="_blank" rel="nofollow">百度外卖.新品前端</a>@2017</span>
+						<span class="credits-theme"><a href="https://bwm-fe.github.io/" target="_blank" rel="nofollow">百度外卖.前端</a>@2017</span>
 						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
 					</section>
 				</footer>
