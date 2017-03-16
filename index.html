@@ -66,7 +66,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
       </div>
       <section id="wrapper" style="display: none;">
         <div id="ajax-container">
-          <nav id="nav" class="nav">
+          <nav id="nav" class="nav" style="position: fixed; width: 100%">
             <div class="nav-logo">
               <a href="https://bwm-fe.github.io/">
       			<img src="/imgs/bwf-logo.png" alt="Logo"/>
@@ -74,25 +74,53 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
             </div>
             <div class="nav-menu">
                 
+                
             </div>
           </nav>
+          <div style="height: 64px; width: 100%"></div>
 
 
-<header id="header" class="header">
+<header id="header" class="header" style="position: relative">
 	<div class="inner">
 		<a class="header-title" href="">
 			<h1 class="header-name" style="color: #fff">新品前端@百度外卖</h1>
 			<span class="header-description" style="color: #fff">
-				 Make JavaScript Great Again.
+				 Make JavaScript Always Great.
 			</span>
 		</a>
 	</div>
 
-	<div class="header-cover" style="background-image: url(/imgs/artificial.gif)"></div>
+	<div
+		class="header-cover" 
+		style="
+			background-image: url(/imgs/header.jpg);
+			position: absolute;
+			z-index: 0;
+			overflow: hidden;
+		"
+	>
+		<video
+			src="/imgs/banner.mp4"
+			width="100%"
+			loop="loop"
+			style="
+				position: absolute;
+				top: -280px;
+			"
+			autoplay
+		>
+		您的浏览器不支持 video 标签。
+		</video>
+	</div>
 	
 </header>
 
-<div id="post-index" class="container">
+<div id="post-index" class="container"
+style="
+		width: 100%;
+		height: auto;
+	"
+>
 
 	<main class="content" role="main">
 
