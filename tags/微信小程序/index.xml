@@ -23,7 +23,7 @@
         width: 100%;
         height: 400px;
     &#34;
-    data-src=&#34;https://mp.weixin.qq.com/debug/wxadoc/dev/image/start_result.png?t=201733&#34;
+    data-src=&#34;/images/mini_program/start_result.png&#34;
     class=&#34;blured-image w3-card-8 filter-blur-15&#34;
 &gt;
 &lt;/div&gt;

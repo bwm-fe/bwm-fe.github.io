@@ -21,7 +21,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 400px;
+        min-height: 400px;
     &#34;
     data-src=&#34;/images/components/header.png&#34;
     class=&#34;blured-image w3-card-8 filter-blur-15&#34;
