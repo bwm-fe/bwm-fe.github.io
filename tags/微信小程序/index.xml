@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>微信小程序 on 新品前端@百度外卖</title>
-    <link>http://coderzh.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.xml</link>
+    <link>http://bwm-fe.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.xml</link>
     <description>Recent content in 微信小程序 on 新品前端@百度外卖</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://coderzh.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bwm-fe.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>小程序体验 - 吴洋</title>
-      <link>http://coderzh.github.io/post/22222/</link>
+      <link>http://bwm-fe.github.io/post/22222/</link>
       <pubDate>Mon, 13 Mar 2017 16:55:49 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/post/22222/</guid>
+      <guid>http://bwm-fe.github.io/post/22222/</guid>
       <description>
 
 &lt;div
@@ -72,7 +72,7 @@
 
 &lt;p&gt;按照小程序官方建议的代码框架，小程序的文件结构包含一个描述整体程序的 app 和多个描述各自页面的 page。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -109,7 +109,7 @@
 &lt;p&gt;这和我们当前使用的 MVVM 框架 vue 类似。但是不完全一样，小程序提供的框架严格禁止对 dom 的操作。
 而外卖这边在构建小程序技术框架的时候加入了业务，技术架构如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -183,7 +183,7 @@
 
 &lt;p&gt;小程序页面的生命周期有『onLoad——onShow——onReady——onHide——onUnload』五个阶段。页面加载的时候会触发 onLoad 和 onShow，页面初次渲染完成会触发 onReady，打开新页或切换 tab 的时候会触发 onHide，本页打开新页或者返回上一页触发 onUnload。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;探索-登录&#34;&gt;探索 &amp;gt; 登录&lt;/h3&gt;
 
@@ -191,7 +191,7 @@
 
 &lt;p&gt;当我们通过接口拿到登录凭证 code 提交给后端，后端生成一个 3rd_session，前端将 3rd_session 存到本地，以便以后每次请求都带上用于标示唯一用户，支付，反作弊等验证。具体的交互图如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;通过 wx.login() 获取到用户登录态之后，需要维护登录态。开发者要注意不应该直接把 session_key、openid 等字段作为用户的标识或者 session 的标识，而应该自己派发一个 session 登录态（请参考登录时序图）。对于开发者自己生成的 session，应该保证其安全性且不应该设置较长的过期时间。session 派发到小程序客户端之后，可将其存储在 storage ，用于后续通信使用。&lt;/p&gt;
 
@@ -203,10 +203,10 @@
     
     <item>
       <title>小程序技术初体验 - 吴洋</title>
-      <link>http://coderzh.github.io/post/mini_program/</link>
+      <link>http://bwm-fe.github.io/post/mini_program/</link>
       <pubDate>Mon, 13 Mar 2017 16:55:49 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/post/mini_program/</guid>
+      <guid>http://bwm-fe.github.io/post/mini_program/</guid>
       <description>
 
 &lt;div
@@ -265,7 +265,7 @@
 
 &lt;p&gt;按照小程序官方建议的代码框架，小程序的文件结构包含一个描述整体程序的 app 和多个描述各自页面的 page。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -302,7 +302,7 @@
 &lt;p&gt;这和我们当前使用的 MVVM 框架 vue 类似。但是不完全一样，小程序提供的框架严格禁止对 dom 的操作。
 而外卖这边在构建小程序技术框架的时候加入了业务，技术架构如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -376,7 +376,7 @@
 
 &lt;p&gt;小程序页面的生命周期有『onLoad——onShow——onReady——onHide——onUnload』五个阶段。页面加载的时候会触发 onLoad 和 onShow，页面初次渲染完成会触发 onReady，打开新页或切换 tab 的时候会触发 onHide，本页打开新页或者返回上一页触发 onUnload。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;探索-登录&#34;&gt;探索 &amp;gt; 登录&lt;/h3&gt;
 
@@ -384,7 +384,7 @@
 
 &lt;p&gt;当我们通过接口拿到登录凭证 code 提交给后端，后端生成一个 3rd_session，前端将 3rd_session 存到本地，以便以后每次请求都带上用于标示唯一用户，支付，反作弊等验证。具体的交互图如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://bwm-fe.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;通过 wx.login() 获取到用户登录态之后，需要维护登录态。开发者要注意不应该直接把 session_key、openid 等字段作为用户的标识或者 session 的标识，而应该自己派发一个 session 登录态（请参考登录时序图）。对于开发者自己生成的 session，应该保证其安全性且不应该设置较长的过期时间。session 派发到小程序客户端之后，可将其存储在 storage ，用于后续通信使用。&lt;/p&gt;
 
