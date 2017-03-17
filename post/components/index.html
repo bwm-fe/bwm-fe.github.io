@@ -28,14 +28,8 @@
 
         <title> 前端业务模型组件抽象集成实践 &middot;  新品前端@百度外卖</title>
 
-
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
-        <link href="/imgs/favicon.ico" rel="icon" type="image/x-icon" />
-
-        <link rel="stylesheet" href="/css/highlight.css">
-        <script src="/js/highlight.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
 
     
         <meta name="description" content="在组件化开发的基础上，对营运后端占业务总量 50% 以上的检索页面模型进行抽象" />
@@ -55,7 +49,6 @@
 
     
         <link rel="canonical" href="http://bwm-fe.github.io/post/components/" />
-        
 
 
     <script type="application/ld+json">
@@ -93,77 +86,33 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
       </div>
       <section id="wrapper" style="display: none;">
         <div id="ajax-container">
-          <nav id="nav" class="nav" style="position: fixed; width: 100%">
+          <nav id="nav" class="nav">
             <div class="nav-logo">
               <a href="http://bwm-fe.github.io/">
-      			<img src="/imgs/bwf-logo.png" alt="Logo"/>
+      			  
               </a>
             </div>
             <div class="nav-menu">
+              <a class="rss" href="">
+                <i class="icon-rss"></i>
+              </a>
                 
                 <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
                 
                 
             </div>
           </nav>
-          <div style="height: 64px; width: 100%"></div>
 
 
-<head>
-
-
-
-
-<script type="text/javascript">
-
-var duoshuoQuery = {short_name:"fanxmistic"};
-(function() {
-	var ds = document.createElement('script');
-	ds.type = 'text/javascript';ds.async = true;
-	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-	ds.charset = 'UTF-8';
-	(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-})();
-</script>
-<script>
-	function scroll( fn ) {
-			var beforeScrollTop = document.body.scrollTop,
-					fn = fn || function() {};
-			window.addEventListener("scroll", function() {
-					var afterScrollTop = document.body.scrollTop,
-							delta = afterScrollTop - beforeScrollTop;
-					if( delta === 0 ) return false;
-					fn( delta > 0 ? "down" : "up" );
-					beforeScrollTop = afterScrollTop;
-			}, false);
-	}
-	scroll(function(direction) { 
-		var nav = document.querySelector('#nav');
-		if (direction === 'up') {
-			nav.style.opacity = '1'; 
-		} else {
-			nav.style.opacity = '0';
-		}
-	});
-	
-	$('pre code').each(function(i, block) {
-    hljs.highlightBlock(block);
-  });
-</script>
-</head>
 <main class="content" role="main">
 	<article class="post">
-		
 		<div class="inner">
 
 			<div id="push">
 
   			<header class="post-header">
   				<span class="post-meta">
-						<span class="post-date">14 Mar 2017</span> 
-						<span>| 林溪</span>
-					</span>
+						<span class="post-date">14 Mar 2017</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">356</span> words)</span></span>
   				</span>
   				<div class="clear"></div>
   				<h1 class="post-title">前端业务模型组件抽象集成实践</h1>
@@ -584,9 +533,9 @@ this.valueChange('shop_town_id', item_id);
     
 </aside>
 
-				<div class="ds-thread" class="ds-thread" data-thread-key="http://bwm-fe.github.io/post/components/" data-title="前端业务模型组件抽象集成实践" data-url="http://bwm-fe.github.io/post/components/"></div>
+
 			</div>
- 
+
 			<nav class="post-nav">
 				
 				
@@ -607,11 +556,10 @@ this.valueChange('shop_town_id', item_id);
 	</article>
 </main>
 
-
 				<div id="body-class" style="display: none;"></div>
 				<footer id="footer">
 					<section class="credits">
-						<span class="credits-theme"><a href="https://bwm-fe.github.io/" target="_blank" rel="nofollow">百度外卖.前端</a>@2017</span>
+						<span class="credits-theme">Theme <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a> by <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
 						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
 					</section>
 				</footer>
