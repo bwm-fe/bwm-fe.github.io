@@ -236,7 +236,7 @@ var duoshuoQuery = {short_name:"fanxmistic"};
 
 <p>按照小程序官方建议的代码框架，小程序的文件结构包含一个描述整体程序的 app 和多个描述各自页面的 page。</p>
 
-<p><img src="/images/mini_program/jiagou.png" alt="外卖小程序技术架构" /></p>
+<!--![外卖小程序技术架构](/images/mini_program/jiagou.png)-->
 
 <table>
 <thead>
@@ -273,7 +273,7 @@ var duoshuoQuery = {short_name:"fanxmistic"};
 <p>这和我们当前使用的 MVVM 框架 vue 类似。但是不完全一样，小程序提供的框架严格禁止对 dom 的操作。
 而外卖这边在构建小程序技术框架的时候加入了业务，技术架构如下：</p>
 
-<p><img src="/images/mini_program/tech-jiagou.png" alt="小程序技术框架" /></p>
+<!--![小程序技术框架](/images/mini_program/tech-jiagou.png)-->
 
 <table>
 <thead>
@@ -347,7 +347,7 @@ var duoshuoQuery = {short_name:"fanxmistic"};
 
 <p>小程序页面的生命周期有『onLoad——onShow——onReady——onHide——onUnload』五个阶段。页面加载的时候会触发 onLoad 和 onShow，页面初次渲染完成会触发 onReady，打开新页或切换 tab 的时候会触发 onHide，本页打开新页或者返回上一页触发 onUnload。</p>
 
-<p><img src="/images/mini_program/mina-lifecycle.png" alt="页面的生命周期" /></p>
+<!--![页面的生命周期](/images/mini_program/mina-lifecycle.png)-->
 
 <h3 id="探索-登录">探索 &gt; 登录</h3>
 
@@ -355,7 +355,7 @@ var duoshuoQuery = {short_name:"fanxmistic"};
 
 <p>当我们通过接口拿到登录凭证 code 提交给后端，后端生成一个 3rd_session，前端将 3rd_session 存到本地，以便以后每次请求都带上用于标示唯一用户，支付，反作弊等验证。具体的交互图如下：</p>
 
-<p><img src="/images/mini_program/login.png" alt="交互图" /></p>
+<!--![交互图](/images/mini_program/login.png)-->
 
 <p>通过 wx.login() 获取到用户登录态之后，需要维护登录态。开发者要注意不应该直接把 session_key、openid 等字段作为用户的标识或者 session 的标识，而应该自己派发一个 session 登录态（请参考登录时序图）。对于开发者自己生成的 session，应该保证其安全性且不应该设置较长的过期时间。session 派发到小程序客户端之后，可将其存储在 storage ，用于后续通信使用。</p>
 

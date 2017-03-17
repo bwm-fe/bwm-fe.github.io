@@ -202,11 +202,11 @@ var duoshuoQuery = {short_name:"fanxmistic"};
 
 <p>以几个业务系统为例，以下是我们商超运营后端，生态链仓储和电销系统的界面截图。</p>
 
-<p><img src="/images/components/shop.png" alt="商超" /></p>
+<!--![商超](/images/components/shop.png)
 
-<p><img src="/images/components/ecochain.png" alt="生态链" /></p>
+![生态链](/images/components/ecochain.png)
 
-<p><img src="/images/components/dianxiao.png" alt="电销" /></p>
+![电销](/images/components/dianxiao.png)-->
 
 <p>可以看到运营后台系统的界面还是很有规律的，其实MIS系统绝大部分界面也就是增删改查。从现在的几个业务来看，增删改查的需求，类似图上的界面保守的说能占到50%。而现在我们还在重复的写着这些页面，重复着代码复制，修改这样的工作。</p>
 
@@ -225,7 +225,7 @@ var duoshuoQuery = {short_name:"fanxmistic"};
 
 <h3 id="业务模型组件流程图">业务模型组件流程图</h3>
 
-<p><img src="/images/components/progress.png" alt="流程图" /></p>
+<!--![流程图](/images/components/progress.png)-->
 
 <p>通过配置过滤项生成页面，通过服务配置指定数据获取方式。使用了业务模型组件之后，只处理自组件的用户交互事件，页面上其他事情就不用管了，比如检索按钮，清空按钮，翻页处理等都由大组件集中处理了。</p>
 
@@ -404,7 +404,7 @@ var duoshuoQuery = {short_name:"fanxmistic"};
 
 <h4 id="2-组件交互图">2.组件交互图</h4>
 
-<p><img src="/images/components/interaction.png" alt="交互图" /></p>
+<!--![交互图](/images/components/interaction.png)-->
 
 <p>父组件 xp-searchPage 负责主要的处理逻辑，子组件通过事件与父组件进行交互，父组件将最终数据通过事件通知给 table 组件，最终完成数据的渲染。</p>
 
