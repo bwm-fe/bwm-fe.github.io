@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>组件抽象 on 新品前端@百度外卖</title>
-    <link>https://bwm-fe.github.io/tags/%E7%BB%84%E4%BB%B6%E6%8A%BD%E8%B1%A1/index.xml</link>
+    <link>http://coderzh.github.io/tags/%E7%BB%84%E4%BB%B6%E6%8A%BD%E8%B1%A1/index.xml</link>
     <description>Recent content in 组件抽象 on 新品前端@百度外卖</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://bwm-fe.github.io/tags/%E7%BB%84%E4%BB%B6%E6%8A%BD%E8%B1%A1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://coderzh.github.io/tags/%E7%BB%84%E4%BB%B6%E6%8A%BD%E8%B1%A1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>前端业务模型组件抽象集成实践 - 林溪</title>
-      <link>https://bwm-fe.github.io/post/components/</link>
+      <link>http://coderzh.github.io/post/components/</link>
       <pubDate>Tue, 14 Mar 2017 17:11:31 +0800</pubDate>
       
-      <guid>https://bwm-fe.github.io/post/components/</guid>
+      <guid>http://coderzh.github.io/post/components/</guid>
       <description>
 
 &lt;div
@@ -38,11 +38,11 @@
 
 &lt;p&gt;以几个业务系统为例，以下是我们商超运营后端，生态链仓储和电销系统的界面截图。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/shop.png&#34; alt=&#34;商超&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/shop.png&#34; alt=&#34;商超&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/ecochain.png&#34; alt=&#34;生态链&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/ecochain.png&#34; alt=&#34;生态链&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/dianxiao.png&#34; alt=&#34;电销&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/dianxiao.png&#34; alt=&#34;电销&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;可以看到运营后台系统的界面还是很有规律的，其实MIS系统绝大部分界面也就是增删改查。从现在的几个业务来看，增删改查的需求，类似图上的界面保守的说能占到50%。而现在我们还在重复的写着这些页面，重复着代码复制，修改这样的工作。&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 
 &lt;h3 id=&#34;业务模型组件流程图&#34;&gt;业务模型组件流程图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/progress.png&#34; alt=&#34;流程图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/progress.png&#34; alt=&#34;流程图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;通过配置过滤项生成页面，通过服务配置指定数据获取方式。使用了业务模型组件之后，只处理自组件的用户交互事件，页面上其他事情就不用管了，比如检索按钮，清空按钮，翻页处理等都由大组件集中处理了。&lt;/p&gt;
 
@@ -240,7 +240,7 @@
 
 &lt;h4 id=&#34;2-组件交互图&#34;&gt;2.组件交互图&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/interaction.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/interaction.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;父组件 xp-searchPage 负责主要的处理逻辑，子组件通过事件与父组件进行交互，父组件将最终数据通过事件通知给 table 组件，最终完成数据的渲染。&lt;/p&gt;
 

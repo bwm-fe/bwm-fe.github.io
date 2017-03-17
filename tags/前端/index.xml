@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>前端 on 新品前端@百度外卖</title>
-    <link>https://bwm-fe.github.io/tags/%E5%89%8D%E7%AB%AF/index.xml</link>
+    <link>http://coderzh.github.io/tags/%E5%89%8D%E7%AB%AF/index.xml</link>
     <description>Recent content in 前端 on 新品前端@百度外卖</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://bwm-fe.github.io/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://coderzh.github.io/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>前端业务模型组件抽象集成实践 - 林溪</title>
-      <link>https://bwm-fe.github.io/post/components/</link>
+      <link>http://coderzh.github.io/post/components/</link>
       <pubDate>Tue, 14 Mar 2017 17:11:31 +0800</pubDate>
       
-      <guid>https://bwm-fe.github.io/post/components/</guid>
+      <guid>http://coderzh.github.io/post/components/</guid>
       <description>
 
 &lt;div
@@ -38,11 +38,11 @@
 
 &lt;p&gt;以几个业务系统为例，以下是我们商超运营后端，生态链仓储和电销系统的界面截图。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/shop.png&#34; alt=&#34;商超&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/shop.png&#34; alt=&#34;商超&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/ecochain.png&#34; alt=&#34;生态链&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/ecochain.png&#34; alt=&#34;生态链&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/dianxiao.png&#34; alt=&#34;电销&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/dianxiao.png&#34; alt=&#34;电销&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;可以看到运营后台系统的界面还是很有规律的，其实MIS系统绝大部分界面也就是增删改查。从现在的几个业务来看，增删改查的需求，类似图上的界面保守的说能占到50%。而现在我们还在重复的写着这些页面，重复着代码复制，修改这样的工作。&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 
 &lt;h3 id=&#34;业务模型组件流程图&#34;&gt;业务模型组件流程图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/progress.png&#34; alt=&#34;流程图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/progress.png&#34; alt=&#34;流程图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;通过配置过滤项生成页面，通过服务配置指定数据获取方式。使用了业务模型组件之后，只处理自组件的用户交互事件，页面上其他事情就不用管了，比如检索按钮，清空按钮，翻页处理等都由大组件集中处理了。&lt;/p&gt;
 
@@ -240,7 +240,7 @@
 
 &lt;h4 id=&#34;2-组件交互图&#34;&gt;2.组件交互图&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/components/interaction.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/components/interaction.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;父组件 xp-searchPage 负责主要的处理逻辑，子组件通过事件与父组件进行交互，父组件将最终数据通过事件通知给 table 组件，最终完成数据的渲染。&lt;/p&gt;
 
@@ -401,10 +401,10 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
     
     <item>
       <title>小程序体验 - 吴洋</title>
-      <link>https://bwm-fe.github.io/post/22222/</link>
+      <link>http://coderzh.github.io/post/22222/</link>
       <pubDate>Mon, 13 Mar 2017 16:55:49 +0800</pubDate>
       
-      <guid>https://bwm-fe.github.io/post/22222/</guid>
+      <guid>http://coderzh.github.io/post/22222/</guid>
       <description>
 
 &lt;div
@@ -463,7 +463,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 
 &lt;p&gt;按照小程序官方建议的代码框架，小程序的文件结构包含一个描述整体程序的 app 和多个描述各自页面的 page。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -500,7 +500,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 &lt;p&gt;这和我们当前使用的 MVVM 框架 vue 类似。但是不完全一样，小程序提供的框架严格禁止对 dom 的操作。
 而外卖这边在构建小程序技术框架的时候加入了业务，技术架构如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -574,7 +574,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 
 &lt;p&gt;小程序页面的生命周期有『onLoad——onShow——onReady——onHide——onUnload』五个阶段。页面加载的时候会触发 onLoad 和 onShow，页面初次渲染完成会触发 onReady，打开新页或切换 tab 的时候会触发 onHide，本页打开新页或者返回上一页触发 onUnload。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;探索-登录&#34;&gt;探索 &amp;gt; 登录&lt;/h3&gt;
 
@@ -582,7 +582,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 
 &lt;p&gt;当我们通过接口拿到登录凭证 code 提交给后端，后端生成一个 3rd_session，前端将 3rd_session 存到本地，以便以后每次请求都带上用于标示唯一用户，支付，反作弊等验证。具体的交互图如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;通过 wx.login() 获取到用户登录态之后，需要维护登录态。开发者要注意不应该直接把 session_key、openid 等字段作为用户的标识或者 session 的标识，而应该自己派发一个 session 登录态（请参考登录时序图）。对于开发者自己生成的 session，应该保证其安全性且不应该设置较长的过期时间。session 派发到小程序客户端之后，可将其存储在 storage ，用于后续通信使用。&lt;/p&gt;
 
@@ -594,10 +594,10 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
     
     <item>
       <title>小程序技术初体验 - 吴洋</title>
-      <link>https://bwm-fe.github.io/post/mini_program/</link>
+      <link>http://coderzh.github.io/post/mini_program/</link>
       <pubDate>Mon, 13 Mar 2017 16:55:49 +0800</pubDate>
       
-      <guid>https://bwm-fe.github.io/post/mini_program/</guid>
+      <guid>http://coderzh.github.io/post/mini_program/</guid>
       <description>
 
 &lt;div
@@ -656,7 +656,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 
 &lt;p&gt;按照小程序官方建议的代码框架，小程序的文件结构包含一个描述整体程序的 app 和多个描述各自页面的 page。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/jiagou.png&#34; alt=&#34;外卖小程序技术架构&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -693,7 +693,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 &lt;p&gt;这和我们当前使用的 MVVM 框架 vue 类似。但是不完全一样，小程序提供的框架严格禁止对 dom 的操作。
 而外卖这边在构建小程序技术框架的时候加入了业务，技术架构如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/tech-jiagou.png&#34; alt=&#34;小程序技术框架&#34; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -767,7 +767,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 
 &lt;p&gt;小程序页面的生命周期有『onLoad——onShow——onReady——onHide——onUnload』五个阶段。页面加载的时候会触发 onLoad 和 onShow，页面初次渲染完成会触发 onReady，打开新页或切换 tab 的时候会触发 onHide，本页打开新页或者返回上一页触发 onUnload。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/mina-lifecycle.png&#34; alt=&#34;页面的生命周期&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;探索-登录&#34;&gt;探索 &amp;gt; 登录&lt;/h3&gt;
 
@@ -775,7 +775,7 @@ this.valueChange(&#39;shop_town_id&#39;, item_id);
 
 &lt;p&gt;当我们通过接口拿到登录凭证 code 提交给后端，后端生成一个 3rd_session，前端将 3rd_session 存到本地，以便以后每次请求都带上用于标示唯一用户，支付，反作弊等验证。具体的交互图如下：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://bwm-fe.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://coderzh.github.io/images/mini_program/login.png&#34; alt=&#34;交互图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;通过 wx.login() 获取到用户登录态之后，需要维护登录态。开发者要注意不应该直接把 session_key、openid 等字段作为用户的标识或者 session 的标识，而应该自己派发一个 session 登录态（请参考登录时序图）。对于开发者自己生成的 session，应该保证其安全性且不应该设置较长的过期时间。session 派发到小程序客户端之后，可将其存储在 storage ，用于后续通信使用。&lt;/p&gt;
 
